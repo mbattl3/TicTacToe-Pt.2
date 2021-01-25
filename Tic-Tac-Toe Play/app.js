@@ -5,21 +5,16 @@ for (let square of cells) {
   square.addEventListener("click", cellClicked);
 }
 
-
 let gameOver = false;
-
 
 let player = "X";
 
 let announcement = document.querySelector(".winner");
 
-
 let newGame = document.querySelector("#newGame");
 
 newGame.addEventListener("click", clearBoard)
 
-
-//FUNCTIONS
 function choosePlayer() {
   if (event.target.textContent === 'X' || event.target.textContent === 'O') {
     return;
