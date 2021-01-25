@@ -5,13 +5,13 @@ h1 {
   color: rgb(68, 11, 11);
   text-decoration: underline;
 }
-/* GAME BOARD */
+
 #board {
   padding-top: 3em;
   text-align: center;
   background-color: rgba(133, 62, 62, 0.685);
-  height: 40vh;
-  width: 50vh;
+  height: 80vh;
+  width: 80vh;
   text-align: center;
   margin: auto;
 }
@@ -53,9 +53,9 @@ h1 {
 .bottom:hover {
   cursor: pointer;
 }
-/*WINNER ANNOUNCEMENT*/
+
 .winner {
-  position: relative;
+  position: center;
   top: -5em;
   left: 5px;
   color: rgb(68, 11, 11);
